@@ -38,9 +38,10 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img
-            src="https://media.giphy.com/media/GvPEIKC44PDFTlRe5r/giphy.gif?cid=790b76110531rc5z3q2u21yfr0mx9579acsyp3ir8ptecpwm&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+            src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHlscDV5d3IwY3JsZnJpNHVhdXZraDRvdDl3eDFqa2t2cXhobHB4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ni9D508ZYzjVgNviSV/giphy.gif"
             alt="Melodi"
           />
+
           <div className="text-4xl font-bold my-4">
             Yaaaaaayyyyyyyy💕💕💕 Shimmi !!!
           </div>
