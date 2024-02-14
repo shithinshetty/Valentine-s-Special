@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "./Footer";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -15,7 +16,7 @@ export default function Page() {
       "Are you sure?",
       "Really sure?",
       "Think again!",
-      "Last chance!",
+      "Last chance!Shimmii 🙄",
       "Surely not?",
       "You might regret this!",
       "Give it another thought!",
@@ -41,7 +42,7 @@ export default function Page() {
             alt="Melodi"
           />
           <div className="text-4xl font-bold my-4">
-            Yaaaaaayyyyyyyy💕💕💕 !!!
+            Yaaaaaayyyyyyyy💕💕💕 Shimmi !!!
           </div>
         </>
       ) : (
@@ -69,8 +70,7 @@ export default function Page() {
           </div>
         </>
       )}
-
-      <div>Made With ❤️ From Kudla</div>
+      <Footer />
     </div>
   );
 }
