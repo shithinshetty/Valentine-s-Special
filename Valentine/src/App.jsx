@@ -69,6 +69,8 @@ export default function Page() {
           </div>
         </>
       )}
+
+      <div>Made With ❤️ From Kudla</div>
     </div>
   );
 }
