@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
+  const [yesPressed, setYesPressed] = useState("");
   const yesButtonSize = noCount * 20 + 16;
 
   const handleNoClick = () => {
